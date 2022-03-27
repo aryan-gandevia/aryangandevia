@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html> 
+
+<head> 
+    <link rel="stylesheet"  href="styles.css">  <!-- importing css file-->
+    <script src="javascript.js"></script> <!-- importing javascript file-->
+</head>
+
+<body>
+
+
+
+
+ <div class="circle" style="border-radius:0%">    <!-- circle behind my name -->
+   </div>
+   
+  
+   <h1 style="font-size:75px; text-align: center;">  <!-- Words on main, start of screen (my name and the tagline)-->    
+        ARYAN GANDEVIA 
+        <div class="thirtysize">
+            Aspiring Software Engineer | Video Game Enthusiast <br>
+            <div class="thirtysize" style="font-size:20px; color:grey; font-family: raleway; transform:translateX(-1%);">
+
+                
+                <img src="Pictures/email.png" alt="mail" width="25" height="25"> <a href = "mailto: aryan.gandevia@gmail.com">aryan.gandevia@gmail.com</a> <br>
+                <img src="Pictures/resume.png" alt="resume" width="25" height="25"> <a href="Resume/Aryan Gandevia Resume.pdf">My resume</a>
+            </div>
+        </div>
+   </h1>
+  
+
+   <!-- who am i -->
+   <div id="aboutMe" class="h2BG"> <!-- White subsection for the "Who am I" section-->
+    <h2 style="font-size:60px; width: 50%; text-align: center; position: absolute; left: 5%; top: 8.5%;"> <!-- title text-->
+     
+             Who am I?
+             <div class="thirtysizeTwo" style="padding: 10px; text-align: center; width:96%;"> <!-- the content text-->
+                 Hi, my name is Aryan Gandevia (as you probably already saw), and I am a grade 12 student currently attending the high school of William Lyon Mackenzie Collegiate Institute. Ever since I was introduced
+                 to the world of programming, I was instantly hooked, jumping at each and every opportunity to incorporate coding into whatever I would do. As such, my post-secondary goal is to puruse 
+                 a bachelor's degree in software engineering/computer science, and hopefully find my niche in this industry along the journey. However, my life goes beyond just programming,
+                 and I want that to reflect on this website. So, in addition to showcasing my projects, skills, and accolades, I want to also display my personality to help give you a better sense of who I am.
+                 Thanks for passing by!
+ 
+                 
+             </div>
+    </h2>
+ </div>
+
+<div id="projects" class="h4BG"> <!-- Projects Section -->
+
+    <div class="rectBorder" style="background-color: rgb(199, 199, 199);position: absolute; top: 0%; left: 0%;"></div> <!-- border between sections -->
+    <h3 style="font-size: 80px; text-align: center; color: black; transform: translateY(-15%);">
+        Projects <!-- title -->
+    </h3>
+
+    <!-- Auricular.ai -->
+    <h4 style="position: absolute; top:15%; font-size: 30px;">
+        <div class="space"></style>
+        Auricular.ai
+        <div class="h4Content" style="width: 80%; font-size: 20px; color: black;">
+            Auricular.AI is an application a group of friends and I developed for Hack the North 2020++. The application 
+            takes an audio file and parses through it, returning the most "relevent" information to the user based off
+            their relevence requirements. Currently, it is only applicable for work/school requirements, but with more 
+            in-depth and diverse training/usage of Wit.AI, we will be able to make its usage more widespread. This project is
+            definitely one of my favourite pieces of collaborative work I've contributed towards. More information
+            on the link provided below. <br><br>
+            <div class="h4ContentBold">
+                Python, Facebook Wit.AI API, Google Speech-to-text API, Tkinter <br>
+            </div>
+            Link: <a href="https://devpost.com/software/auricular-ai">https://devpost.com/software/auricular-ai</a>
+        </div>
+        <img src="Pictures/AuricularAI.PNG" alt="auricular-ai" class="picbg" width="175" height="175">
+    </h4>
+
+    <!-- Blackbeard's breakout -->
+    <h4 style="position: absolute; top:35%; font-size: 30px;">
+        <div class="space"></style>
+        Blackbeard's Breakout
+        <div class="h4Content" style="width: 80%; font-size: 20px; color: black;">
+            Although not the most technically impressive out of the projects I've worked on, this is my favourite 
+            project I've worked on. Along with 2 of my friends, we constructed a fully functional 2-dimensional
+            platformer game for our grade 12 computer science class' final project. The process of making this game
+            was rigerous and definitely taught me a lot in terms of working skills and my coding abilities. If you 
+            are interested, check out the link for more details! <br><br><br>
+            <div class="h4ContentBold">
+               Java, Java Swing 
+            </div>
+            Link: <a href="https://devpost.com/software/blackbeard-s-breakout-2-dimensional-platformer">https://devpost.com/software/blackbeard-s-breakout-2-dimensional-platformer</a>
+        </div>
+        <img src="Pictures/Player.png" alt="blackbeard" class="picbg" width="110" height="110" style="top: 23%; left:85%;">
+    </h4>
+
+    <!-- Handpong -->
+    <h4 style="position: absolute; top:55%; font-size: 30px;">
+        <div class="space"></style>
+        Handpong
+        <div class="h4Content" style="width: 80%; font-size: 20px; color: black;">
+            Handpong is a motion-sensor based multiplayer game, where you use your hand to control your
+            paddle in the game pong. Although it sounds like a simple idea, this project proved to be 
+            very difficult to execute properly, in terms of the motion sensor working accurately,
+            the multiplayer room functioning as intended and making sure the game was not super
+            buggy/laggy. I worked mainly on constructing the game's frontend design and implementation
+            of the four-player system of the game. For more information, click the link below.<br><br>
+            <div class="h4ContentBold">
+                p5.js, React, Socket.io, Tensorflow.js
+            </div>
+            Link: <a href="https://devpost.com/software/handpong">https://devpost.com/software/handpong</a>
+        </div>
+        <img src="Pictures/pong.jpg" alt="handpong" class="picbg" width="175" height="131.25" style="top: 23%; left:82%;">
+    </h4>
+
+    <!-- Validdit -->
+    <h4 style="position: absolute; top:75%; font-size: 30px;">
+        <div class="space"></style>
+        Validdit
+        <div class="h4Content" style="width: 80%; font-size: 20px; color: black;">
+            Validdit is the first large collaborative programming project I've worked on. The application reads a Reddit post, going through various statistics of it,
+            such as its upvote:downvote ratio and the credibility of the account that posted it, and
+            makes a decision on the validity of said post. I worked on frontend development, which was one of the first times I used HTML, CSS and Javascript. Comparing 
+            my skills during this project to my current self, I can say that I have evolved a lot. If you are interested, it is delved into more detail in the link provided below.
+            <br><br>
+            <div class="h4ContentBold">
+                HTML, CSS, Javascript, Flask, PRAW, Python 
+            </div>
+            Link: <a href="https://devpost.com/software/validdit-dcfjua">https://devpost.com/software/validdit-dcfjua</a>
+        </div>
+        <img src="Pictures/reddit.png" alt="validdit" class="picbg" width="175" height="175" style="top: 12%; left:82%;">
+    </h4>
+
+</div>
+
+<div id="skillsAllocadesExtracurriculars" class="h5BG"> <!-- Skills, allocades and extracurriculars -->
+    <div class="rectBorder" style="background-color: rgb(199, 199, 199);position: absolute; top: 0%; left: 0%;"></div>
+    <h4 style="font-size:40px; width: 25%; height: 49%; text-align: center; position: absolute; left: 2%; top: 6%; color: black; background-color: rgb(168, 219, 214);"> <!-- title text--> 
+        Skills
+        <div class="thirtysizeTwo" style="padding: 10px; width:96%; text-align: left; color: white;"> <!-- the content text-->
+            Languages: <br>
+            - Java <br>
+            - Python <br>
+            - HTML <br>
+            - JavaScript <br><br>
+            
+            Tools:<br>
+            - Git <br>
+            - JSwing <br>
+            - Facebook Wit.AI API <br>
+            - Google Speech-to-Text API <br>
+            - Tkinter <br>
+
+        </div>
+    </h4>
+
+    <h4 style="font-size:40px; width: 25%; height: 70%; text-align: center; position: absolute; left: 32%; top: 6%; color: black;"> <!-- title text--> 
+        Accolades
+        <div class="thirtysizeTwo" style="padding: 10px; width:96%; text-align: left; color: white;"> <!-- the content text-->
+            - Hack the North 2020++ Facebook API 2nd Place <br><br>
+            - Convergence.Tech's "Challenge4ClimateAction" Honorable Mention <br><br>
+            - Top 10% CEMC Euclid Mathematics Competition 2021 <br><br>
+            - Top 15% CEMC Canadian Senior Mathematics Competition 2021 <br><br>
+            - Top 10% Nationally in Michael Smith Science Challenge 2020 <br><br>
+            - Grade 10 Royal Conservatory of Music Certification            
+        </div>
+    </h4>
+
+    <h4 style="font-size:40px; width: 25%; height: 80%; text-align: center; position: absolute; left: 62%; top: 6%; color: black; background-color: rgb(168, 219, 214);"> <!-- title text--> 
+        Extracurriculars
+        <div class="thirtysizeTwo" style="padding: 10px; width:96%; text-align: left; color: white;"> <!-- the content text-->
+            - Co-founder & president of my school's UNICEF club <br><br>
+            - Dunlace tennis camp coach <br><br>
+            - Mathematics tutor for calculus & advanced function <br><br>
+            - Student council's merch committee's website designer executive <br><br>
+            - HOSA Canada student of biomedical and sports science
+            - Mackenzie Monthly Programming Contests <br><br>
+            - 2 Hack the Norths & 1 Hack the Northeast <br><br>
+            - Tennis Lessons 
+
+        </div>
+    </h4>
+</div>
+
+<!-- Navbar -->
+<ul>
+    <li><a href="#skillsAllocadesExtracurriculars">Skills, Allocades & Extracurriculars</a></li> <!-- skills, allocades and extracurriculars -->
+    <li><a href="#projects">Projects</a></li> <!-- projects -->
+    <li><a href="#aboutMe">About Me</a></li> <!-- about me -->
+    <li><img src="Pictures/ag.png" alt="AG" width="90" style="position:absolute; left:0%; top: 5%;"></li> <!-- AG logo on navbar -->
+</ul>
+</body>
+</html>
