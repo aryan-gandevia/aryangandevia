@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html> 
+
+<head> 
+    <link rel="stylesheet"  href="styles.css">  <!-- importing css file-->
+    <script src="javascript.js"></script> <!-- importing javascript file-->
+</head>
+
+<body>
+
+
+
+
+ <div id="home" class="circle" style="border-radius:0%">    <!-- circle behind my name -->
+   </div>
+   
+  
+   <h1 style="font-size:75px; text-align: center;">  <!-- Words on main, start of screen (my name and the tagline)-->    
+        ARYAN GANDEVIA 
+        <div class="thirtysize">
+            Aspiring Software Engineer | BCS at UWaterloo <br>
+            <div class="thirtysize" style="font-size:20px; color:grey; font-family: raleway; transform:translateX(-1%);">
+                <img src="Pictures/email.png" alt="mail" width="25" height="25"> <a href = "mailto: aryan.gandevia@gmail.com">aryan.gandevia@gmail.com</a> <br>
+                <img src="Pictures/resume.png" alt="resume" width="25" height="25"> <a href="Resume/Aryan Gandevia Resume.pdf">My resume</a>
+            </div>
+        </div>
+   </h1>
+  
+
+   <!-- who am i -->
+   <div id="aboutMe" class="h2BG"> <!-- White subsection for the "Who am I" section-->
+    <h2 style="font-size:60px; width: 50%; text-align: center; position: absolute; left: 5%; top: 8.5%;"> <!-- title text-->
+     
+             Who am I?
+             <div class="thirtysizeTwo" style="padding: 10px; text-align: center; width:96%;"> <!-- the content text-->
+                 Hi, my name is Aryan Gandevia, and I am a future software engineer! I am currently in my first year at the University of Waterloo, study to achieve my Bachelor's
+                 in Computer Science. High school was the first time I was introduced to programming, and ever since then, I have been hooked! Throughout my programming career,
+                 I have picked up many different tech stacks, using a wide range of languages, frameworks, APIs and tools for the different projects I have worked on. <br><br>
+                 
+                 Aside from coding, I would like to say my life is decently well-rounded. Ever since I could remember, I've always played video games, with my top 3 being 
+                 Destiny, Elden Ring and League of Legends. Outside of the virtual world, I really enjoy playing basketball and the piano. My favourite team is the Brooklyn Nets,
+                 and my proudest accomplishment throughout my time playing the piano is that I completed <a href="https://www.youtube.com/watch?v=H1Dvg2MxQn8"> La Campanella</a>!
+                 I've also started to go to the gym, with my year end 'lift goals' to be as follows: 
+                 <br> - Squat: 275lbs
+                 <br> - Deadlift: 315lbs
+                 <br> - Bench: 225lbs
+                 <br><br>
+                 I could keep rambling on, but I won't hold you. If you want to connect further with me, use one of my social platforms to reach out to me,
+                 and we can talk more there! Regardless, thank you so much for taking the time to read this, and I hope you enjoy the rest of my website! 
+ 
+                 
+             </div>
+    </h2>
+    <img src="Pictures/me.jpg" alt="photoOfMe" width="30%" height="auto" style="position: absolute; left: 80%; top: 50%; transform: translate(-50%, -50%);">
+ </div>
+
+<div id="projects" class="h4BG"> <!-- Projects Section -->
+
+    <div class="rectBorder" style="background-color: rgb(199, 199, 199);position: absolute; top: 0%; left: 0%;"></div> <!-- border between sections -->
+    <h3 style="font-size: 80px; text-align: center; color: black; position: relative; transform: translateY(-50%);">
+        Portfolio <!-- title -->
+    </h3>
+
+    <!-- Mindspace -->
+    <h4 style="position: absolute; top:3%; font-size: 30px;">
+        <div class="space"></style>
+        Mindspace
+        <div class="h4Content">
+            Mindspace is my first solo full-stack project, using React, Next.js, Google Firebase and Tailwind CSS. Mindspace is a small social media application that allows users
+            to communicate via posts and comments. Users can view another user's posts and comment on them, post, edit and delete their own, and naviguate through all the posts
+            on the server. Within this project, I have created a fully function API capable of fetching, adding, deleting and editing values stored in the database, a fully safe 
+            authentication system, and a database cluster. The <a href="https://mindspace-aryan-gandevia.vercel.app">website</a> is hosted using Vercel, and updates in real-time. 
+            I am continuously working to develop more features on the website, so stay tuned for that. More information on the code can be found <a href="https://github.com/aryan-gandevia/Mindspace">here</a>. <br><br>
+            <div class="h4ContentBold">
+                Tech Stack:
+            </div>
+            React, Next.js, Google Firebase, Tailwind CSS <br>
+            
+        </div>
+        <img src="Pictures/mindspace.webp" alt="mindspace" class="picbg" width="175" height="175">
+    </h4>
+
+    <!-- UWVision -->
+    <h4 style="position: absolute; top:11%; font-size: 30px;">
+        <div class="space"></style>
+        UWVision
+        <div class="h4Content">
+            UWVision is a platform I helped develop in a small team, serving the purpose of allowing Waterloo students to share their co-op knowledge and experiences. This is through
+            posting what jobs they had, the salary, the interview process and anything else relevant to how to get the position they did and what it entails. On my end, I developed resilient 
+            endpoints in Django and responsive frontend components using React to display information fetched on the screen. I assisted in creating the application's API and constructed a few 
+            pages of the cite as well. I plan to continue my contributions to this application as I believe it has the potential to be a really useful resource to Waterloo students. To see the 
+            website, click <a href="https://uwvision.com">here</a>. <br><br>
+            <div class="h4ContentBold">
+                Tech Stack:
+            </div>
+            Django, Node, React, Material UI <br>
+            
+        </div>
+        <img src="Pictures/favicon.ico" alt="UWVision" class="picbg" width="175" height="175">
+    </h4>
+
+    <!-- Auricular.ai -->
+    <h4 style="position: absolute; top:19%; font-size: 30px;">
+        <div class="space"></style>
+        Auricular.ai
+        <div class="h4Content">
+            Auricular.AI is an application a group of friends and I developed for Hack the North 2020++. The application 
+            takes an audio file and parses through it, returning the most "relevent" information to the user based off
+            their relevence requirements. Currently, it is only applicable for work/school requirements, but with more 
+            in-depth and diverse training of Wit.AI, we will be able to make its usage more widespread. This project is
+            definitely one of my favourite pieces of collaborative work I've contributed towards. More information
+            can be found <a href="https://devpost.com/software/auricular-ai">here</a>. <br><br>
+            <div class="h4ContentBold">
+                Tech Stack:
+            </div>
+            Python, Facebook Wit.AI API, Google Speech-to-text API, Tkinter <br>
+            
+        </div>
+        <img src="Pictures/AuricularAI.PNG" alt="auricular-ai" class="picbg" width="175" height="175">
+    </h4>
+
+    <!-- Blackbeard's breakout -->
+    <h4 style="position: absolute; top:27%; font-size: 30px;">
+        <div class="space"></style>
+        Blackbeard's Breakout
+        <div class="h4Content">
+            Although not the most technically impressive out of the projects I've worked on, this is my favourite 
+            project I've worked on. Along with 2 of my friends, we constructed a fully functional 2-dimensional
+            platformer game for our grade 12 computer science class' final project. The process of making this game
+            was rigerous and definitely taught me a lot in terms of working skills and my coding abilities. If you 
+            are interested, check out <a href="https://devpost.com/software/blackbeard-s-breakout-2-dimensional-platformer">here</a> for more details! <br><br>
+            
+            <div class="h4ContentBold">
+                Tech Stack:
+            </div>
+            Java, JSwing
+            
+             
+        </div>
+        <img src="Pictures/Player.png" alt="blackbeard" class="picbg">
+    </h4>
+
+    <!-- Handpong -->
+    <h4 style="position: absolute; top:35%; font-size: 30px;">
+        <div class="space"></style>
+        Handpong
+        <div class="h4Content">
+            Handpong is a motion-sensor based multiplayer game, where you use your hand to control your
+            paddle in the game pong. Although it sounds like a simple idea, this project proved to be 
+            very difficult to execute properly, in terms of the motion sensor working accurately,
+            the multiplayer room functioning as intended and making sure the game was not super
+            buggy/laggy. I worked mainly on constructing the game's frontend design and implementation
+            of the four-player system of the game. For more information, click <a href="https://devpost.com/software/handpong">here</a>.<br><br>
+            <div class="h4ContentBold">
+                Tech Stack:
+            </div>
+
+            React, Socket.io, p5.js, Tensorflow.js
+            
+
+        </div>
+        <img src="Pictures/pong.jpg" alt="handpong" class="picbg" height="131.25">
+    </h4>
+
+    <!-- Validdit -->
+    <h4 style="position: absolute; top:43%; font-size: 30px;">
+        <div class="space"></style>
+        Validdit
+        <div class="h4Content">
+            Validdit is the first large collaborative programming project I've worked on. The application reads a Reddit post, going through various statistics of it,
+            such as its upvote:downvote ratio and the credibility of the account that posted it, and
+            makes a decision on the validity of said post. I worked on frontend development, which was one of the first times I used HTML, CSS and Javascript. Comparing 
+            my skills during this project to my current self, I can say that I have evolved a lot. If you are interested, it is delved into more detail
+            <a href="https://devpost.com/software/validdit-dcfjua">here</a>.
+            <br><br>
+            <div class="h4ContentBold">
+                Tech Stack:
+            </div>
+
+                Python, Javascript, Flask, HTML, CSS, PRAW 
+           
+        </div>
+        <img src="Pictures/reddit.png" alt="validdit" class="picbg">
+    </h4>
+
+</div>
+
+<div id="EducationSkillsAllocades" class="h5BG"> <!-- Skills, allocades and extracurriculars -->
+    <div class="rectBorder" style="background-color: rgb(199, 199, 199);position: absolute; top: 0%; left: 0%;"></div>
+   
+   
+    <h4 style="font-size:40px; width: 40%; height: auto; text-align: center; position: absolute; left: 2%; top: 6%; color: black; background-color: rgb(168, 219, 214);"> <!-- title text--> 
+        Skills
+        <div class="thirtysizeTwo" style="padding: 10px; width:96%; text-align: left; color: black;"> <!-- the content text-->
+            Languages: <br>
+            - Java <br>
+            - Python <br>
+            - JavaScript <br>
+            - Racket <br>
+            - HTML/CSS <br><br>
+
+            Frameworks: <br>
+            - Django <br>
+            - Node <br>
+            - React <br>
+            - Next.js <br>
+            - JSwing <br>
+            - TKinter <br>
+            - Tailwind CSS <br><br>
+            
+            Tools:<br>
+            - Git <br>
+            - Google Firebase <br>
+            - Vercel <br>
+            - Google Speech-to-Text API <br>
+            - Facebook Wit.AI API <br>
+            - Socket.io <br>
+            - p5.js <br>
+
+        </div>
+    </h4>
+
+    <h4 style="font-size:40px; width: 40%; height:auto; text-align: center; position: absolute; left: 50%; top: 6%; color: black; background-color: rgb(168, 219, 214);"> <!-- title text--> 
+        Accolades
+        <div class="thirtysizeTwo" style="padding: 10px; width:96%; text-align: left; color: black;"> <!-- the content text-->
+            - President's Scholarship of Distinction UWaterloo <br><br> 
+            - Hack the North 2020++ Facebook API 2nd Place <br><br>
+            - Top 10% CEMC Euclid Mathematics Competition 2021 and 2022 <br><br>
+            - Top 15% CEMC Canadian Senior Mathematics Competition 2021 <br><br>
+            - Grade 10 Royal Conservatory of Music Certification            
+        </div>
+    </h4>
+
+    <h4 style="position: absolute; top:70%; height: auto; font-size: 40px; text-align: center; color: black; background-color: rgb(168, 219, 214);">
+        Education
+        <div class="h4Content" style="width:100%">
+            <div class="thirtysizeTwo" style="padding: 10px; width:96%; text-align: left; color: black;"> <!-- the content text-->
+                Bachelor's of Computer Science (co-op) at the University of Waterloo<br>
+                &emsp;- GPA of 3.85<br><br>
+
+                Maths and Computer Science (MaCS) enriched/AP program at William Lyon Mackenzie Collegiate Institution<br>
+                &emsp;- Average of 97.8%
+
+            
+            </div>
+        </div>
+    </h4>
+    
+
+</div>
+
+<!-- Navbar -->
+<ul>
+    <li><a href="#EducationSkillsAllocades">Skills, Allocades and Education</a></li> <!-- skills, allocades and extracurriculars -->
+    <li><a href="#projects">Portfolio</a></li> <!-- projects -->
+    <li><a href="#aboutMe">About Me</a></li> <!-- about me -->
+    <li><img src="Pictures/ag.png" alt="AG" width="90" style="position:absolute; left:0%; top: 5%;"/></li> <!-- AG logo on navbar -->
+</ul>
+</body>
+</html>

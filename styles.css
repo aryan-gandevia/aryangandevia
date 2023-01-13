@@ -1,0 +1,252 @@
+body{ /*background of website*/
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(Pictures/mainscreen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: white;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { /* width of scrollbar*/
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track { /* track of the scrollbar, the underneath portion*/
+    background: black;
+}
+
+::-webkit-scrollbar-thumb { /* the handle of the scrollbar, what you click and move*/
+    background: rgb(233, 205, 149);
+}
+
+::-webkit-scrollbar-thumb:hover { /*scrollbar changing when you hover it*/
+    background: rgb(226, 168, 92);
+}
+
+/* Links */
+a:link { /* the link */
+    color: rgb(59, 59, 59);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:visited {/* if you have a link you already clicked */
+    color: rgb(59, 59, 59);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:hover { /* when you hover over the link */
+    color: rgb(10, 10, 10);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active { /* when you click the link */
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+/*Navbar*/
+ul { /* the navbar */
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    height: 63px;
+    overflow: hidden;
+    background-color: rgb(43, 45, 59);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li { /* labels on the navbar */
+    float: right;
+}
+
+li a { /* text for the labels */
+    display: block;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 23px 16px;
+    text-decoration: none;
+    font-family: raleway;
+    font-size: 15px;
+}
+
+li a:link { /* links unhovered */
+    text-decoration: none;
+    color: white;
+}
+
+li a:visited { /* links already visited */
+    color: white;
+}
+
+li a:hover:not(.active) { /* when you hover over a tag */
+    background-color: rgb(36, 34, 51);
+    font-family: ralewayBold;
+    font-size: 14px;
+}
+
+
+.circle{ /* Making the circle*/
+    padding: 0;
+    margin: 0;
+    border-radius: 100%;
+    width: 700px;
+    height: 300px;
+    background-color: rgb(199, 240, 236);
+    opacity: 0.85;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.rectBorder { /* border between sections */
+    height: 5px;
+    width: 100%;
+}
+
+@font-face{ /* title "aryan gandevia" */
+    font-family: paqueTitle;
+    src: url(Fonts/paque.otf);
+}
+
+@font-face{ /*bottom text font beneath my name */
+    font-family: opinioSubtitle;
+    src: url(Fonts/Opinio.otf);
+}
+
+@font-face{ /* "Who am I" font*/
+    font-family: kionaTitle;
+    src: url(Fonts/kiona.ttf);
+}
+
+@font-face{ /* paragraph of "who am i" text*/
+    font-family: raleway;
+    src: url(Fonts/Raleway.ttf);
+}
+
+@font-face { /* project's text */
+    font-family: ralewayBold;
+    src: url(Fonts/Raleway-SemiBold.ttf);
+}
+h1 { /* Title */
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    
+    font-family: paqueTitle;
+    color: black;
+
+}
+
+.thirtysize{ /* Below title  */
+    font-size: 30px;
+    font-family:opinioSubtitle; 
+}
+
+h2 { /* "Who am I" heading */
+    padding: 0;
+    margin: 10px;
+    position: absolute;
+    top: 100%;
+    transform: translateY(0%);
+    
+    font-family: kionaTitle;
+    color: rgb(0, 0, 0);
+
+    box-shadow: 10px 10px 5px grey; 
+    background-color: rgb(199, 240, 236);
+    height: 80%;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.h2BG { /* Background of the "Who am I" section */
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    background-color: beige;
+    background-size: contain;
+    width: 100%;
+    height: 70%;
+    resize: both;
+}
+
+.thirtysizeTwo{ /* "Who am I" paragraph */
+    font-size: 30px;
+    font-family:raleway; 
+}
+
+h3 { /* who am I text */
+    font-family: paqueTitle;
+    color: white;
+}
+
+h4{ /* Projects and skills text */
+    font-family: kionaTitle;
+    color: white;
+
+    width: 85%;
+    transform: translateX(9%);
+
+    box-shadow: -10px -10px 5px grey;
+    background-color: rgb(160, 178, 226);
+    height: 7%;
+    overflow: auto;
+}
+
+.space{ /* off centering the titles for project */
+    transform: translateX(1%);
+}
+
+.h4Content { /* Addition for projects */
+    font-family:raleway; 
+    font-size: 20px;
+    width: 80%; 
+    font-size: 20px;
+     color: black;
+}
+
+.h4ContentBold { /* Bold font for projects */
+    font-family: ralewayBold;
+}
+
+.picbg { /* pictures in "projects" section */
+    position: absolute;
+    width: 175px;
+     left: 85%; 
+     top: 50%; 
+     transform: translateY(-50%);
+}
+
+.h4BG { /* Background of the "Projects" section */
+    position: absolute;
+    top: 170%;
+    left: 0px;
+    background-color: rgb(241, 241, 240);
+    background-size: contain;
+    width: 100%;
+    height: 330%;
+    resize: both; 
+}
+
+.h5BG { /* Background of "skills, accolades and extracurriculars" section */
+    position: absolute;
+    top: 350%;
+    left: 0px;
+    background-color: rgb(255, 255, 255);
+    background-size: contain;
+    width: 100%;
+    height: 170%;
+    resize: both;
+}
